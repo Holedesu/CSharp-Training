@@ -15,6 +15,7 @@ namespace ConsoleApplication1.Chapter3_Arrays
                 array[i] = rand.Next(0, 10);
                 Console.Write(array[i] + " ");
             }
+            
             Console.WriteLine();
             for (int i = 0; i < array.Length; i++)
             {
@@ -27,7 +28,7 @@ namespace ConsoleApplication1.Chapter3_Arrays
                         array[i] = temp;
                     }
                 }
-
+                
                 Console.Write(array[i] + " ");
             }
 

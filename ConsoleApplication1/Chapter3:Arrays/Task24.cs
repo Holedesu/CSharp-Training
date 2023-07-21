@@ -16,7 +16,6 @@ namespace ConsoleApplication1.Chapter3_Arrays
             {
                 Console.WriteLine(word);
             }
-            ;
         }
     }
 }

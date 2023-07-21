@@ -19,7 +19,6 @@ namespace ConsoleApplication1.Chapter3_Arrays
             }
             
             Console.WriteLine("\n");
-            
             if (array[0] > array[1])
             {
                 localmax = array[0];
@@ -39,6 +38,7 @@ namespace ConsoleApplication1.Chapter3_Arrays
                     i++;
                 }
             }
+            
             if (array[array.Length - 1] > array[array.Length - 2])
             {
                 localmax = array[array.Length - 1];

@@ -11,27 +11,32 @@ namespace ConsoleApplication1.Chapter3_Arrays
             Console.WriteLine("type number from 1 to 9: ");
             int userInput = Convert.ToInt32(Console.ReadLine());
             
-            int[] arraySlice = new int[userInput - 1];
-            int[] leastArray = new int [(array.Length - 1) - arraySlice.Length];
+            int[] arraySlice = new int[userInput];
+            int[] leastArray = new int [array.Length - arraySlice.Length];
 
+            int arrayCounter = 0;
+            
             for (int i = 0; i < array.Length; i++)
             {
                 
                 array[i] = i;
                 Console.Write(array[i] + " ");
             }
+            
             Console.WriteLine();
+            for (int i = arraySlice.Length; i < array.Length; i++)
+            {
+                leastArray[arrayCounter] = array[i];
+                Console.Write(array[i] + " ");
+                arrayCounter++;
+            }
+            
             for (int i = 0; i < arraySlice.Length; i++)
             {
                 arraySlice[i] = array[i];
                 Console.Write(array[i] + " ");
             }
-            for (int i = arraySlice.Length; i < leastArray.Length; i++)
-            {
-                leastArray[i] = array[i];
-                Console.Write(array[i] + " ");
-            }
-            Console.WriteLine();
+
         }
     }
 }

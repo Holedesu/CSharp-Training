@@ -61,12 +61,14 @@ namespace ConsoleApplication1.Chapter3_Arrays
                     }
                 }
             }
+            
             Console.WriteLine("The collumn is: ");
             for (int i = 0; i < array.GetLength(1); i++)
             {
                 Console.Write(array[repeatedCol, i] + " ");
             }
             Console.WriteLine();
+            
             Console.WriteLine("Number is: " + repeatNum);
             Console.WriteLine("Repeat number is: " + maxRepeatNum);
             

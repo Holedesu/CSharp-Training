@@ -35,8 +35,6 @@ namespace ConsoleApplication1.Chapter3_Arrays
                 Console.WriteLine(arrayCol);
                 arrayCol = String.Empty;
             }
-            
-            
             Console.WriteLine(firstNumSum);
             Console.WriteLine(secondColSum);
         }
