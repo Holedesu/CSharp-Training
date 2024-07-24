@@ -64,6 +64,8 @@
         <Compile Include="Chapter3:Arrays\Task22.cs" />
         <Compile Include="Chapter3:Arrays\Task23.cs" />
         <Compile Include="Chapter3:Arrays\Task24.cs" />
+        <Compile Include="Chapter4:Functions\Task26.cs" />
+        <Compile Include="Chapter4:Functions\Task27.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
