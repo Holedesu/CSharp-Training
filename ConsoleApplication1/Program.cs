@@ -8,8 +8,8 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            Task26 task26 = new Task26();
-            task26.Start();
+            Task27 task27 = new Task27();
+            task27.Start();
         }
     }
 }
