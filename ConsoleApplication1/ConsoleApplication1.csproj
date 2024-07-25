@@ -74,6 +74,7 @@
         <Compile Include="Chapter5:Collections\Task33.cs" />
         <Compile Include="Chapter5:Collections\Task34.cs" />
         <Compile Include="Chapter5:Collections\Task35.cs" />
+        <Compile Include="Chapter6:OOP\Task36\Player.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
