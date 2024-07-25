@@ -69,11 +69,13 @@
         <Compile Include="Chapter4:Functions\Task28.cs" />
         <Compile Include="Chapter4:Functions\Task29.cs" />
         <Compile Include="Chapter4:Functions\Task30.cs" />
+        <Compile Include="Chapter5:Collections\Task31.cs" />
+        <Compile Include="Chapter5:Collections\Task32.cs" />
+        <Compile Include="Chapter5:Collections\Task33.cs" />
+        <Compile Include="Chapter5:Collections\Task34.cs" />
+        <Compile Include="Chapter5:Collections\Task35.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Chapter5:Collections" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
