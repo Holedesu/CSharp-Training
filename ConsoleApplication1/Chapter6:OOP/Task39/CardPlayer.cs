@@ -8,16 +8,21 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
         private List<Card> _playerDeck;
         private static CardPack _cardPack = new CardPack();
 
+        // Создает игрока с пустой рукой
         public CardPlayer()
         {
             _playerDeck = new List<Card>();
         }
 
+        // Начало игры
         public void StartGame()
         {
             bool cycleSwitcher = true;
-            _cardPack.GenerateDeck();
             int num;
+            
+            //Генерирует колоду дилера для игры
+            _cardPack.GenerateDeck();
+            
             
             while (cycleSwitcher)
             {
@@ -37,6 +42,8 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
                     case "2":
                         Console.WriteLine("Какое кол-во карт вы возьмете?");
                         string cardQuantity = Convert.ToString(Console.ReadLine());
+                        
+                        //Провепяет что введена цифра, если нет, выводит сообщение
                         if (int.TryParse(cardQuantity, out num))
                         {
                             TakeSeveralCards(Convert.ToInt32(cardQuantity)); 
@@ -54,6 +61,7 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
             }
         }
         
+        // Показывает карты в руке
         public void ShowPlayerDeck()
         {
             foreach (var card in _playerDeck)
@@ -62,8 +70,10 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
             }
         }
 
+        // Метод для набора более одной карты
         public void TakeSeveralCards(int userAnswer)
         {
+            // Проверка, что карт хватает в колоде и игрок ввел положительное число
             if (userAnswer < _cardPack.ShowLength() && userAnswer > 0)
             {
                 while (userAnswer > 0)
