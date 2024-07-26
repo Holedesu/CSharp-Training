@@ -79,11 +79,15 @@
         <Compile Include="Chapter6:OOP\Task37\Player1.cs" />
         <Compile Include="Chapter6:OOP\Task38\DataBase.cs" />
         <Compile Include="Chapter6:OOP\Task38\PlayerPartThree.cs" />
+        <Compile Include="Chapter6:OOP\Task39\Card.cs" />
+        <Compile Include="Chapter6:OOP\Task39\CardPack.cs" />
+        <Compile Include="Chapter6:OOP\Task39\CardPlayer.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="Chapter6:OOP\Task38\README.MD" />
+      <Content Include="Chapter6:OOP\Task39\README.md" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
