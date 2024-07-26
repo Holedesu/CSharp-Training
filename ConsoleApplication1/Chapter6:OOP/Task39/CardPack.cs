@@ -14,7 +14,7 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
         }
 
         // Добавляет в колоду карту
-        private void AddCard(Card card)
+        public void AddCard(Card card)
         {
             _deck.Add(card);
         }

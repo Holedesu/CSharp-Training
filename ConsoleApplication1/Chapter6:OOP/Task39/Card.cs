@@ -13,8 +13,7 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
         
         private string[] _suitType = new[] { "spades", "hearts", "diamods", "clubs" };
         private string[] _seniorityType = new[] { "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
-
-
+        
         // Создает нужную вам карту
         private Card(string suit, string seniority)
         {
@@ -23,7 +22,7 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
         }
         
         // Создает карту автоматически
-        public Card ()
+        public Card()
         {
             Card card = GenerateCard();
             _card = new Dictionary<string, string>();

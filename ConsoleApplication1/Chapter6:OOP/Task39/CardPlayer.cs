@@ -48,10 +48,8 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
                         {
                             TakeSeveralCards(Convert.ToInt32(cardQuantity)); 
                         }
-                        else
-                        {
-                            Console.WriteLine("Введен невнрный символ, попробуйте снова");
-                        }
+                        
+                        Console.WriteLine("Введен невнрный символ, попробуйте снова");
                         continue;
                     case "3":
                         ShowPlayerDeck();
@@ -76,16 +74,15 @@ namespace ConsoleApplication1.Chapter6_OOP.Task39
             // Проверка, что карт хватает в колоде и игрок ввел положительное число
             if (userAnswer < _cardPack.ShowLength() && userAnswer > 0)
             {
-                while (userAnswer > 0)
-                {
-                    _playerDeck.Add(_cardPack.GetCard());
-                    _cardPack.DeleteCard();
-                    userAnswer--;
-                }
-            }
-            else
-            {
                 Console.WriteLine("Вы взяли неверное кол-во карт, попробуйте снова!");
+                return;
+                
+            }
+            while (userAnswer > 0)
+            {
+                _playerDeck.Add(_cardPack.GetCard());
+                _cardPack.DeleteCard();
+                userAnswer--;
             }
         }
     }
