@@ -88,6 +88,10 @@
         <Compile Include="Chapter6:OOP\Task41\RunStore.cs" />
         <Compile Include="Chapter6:OOP\Task41\Seller.cs" />
         <Compile Include="Chapter6:OOP\Task41\StorePlayer.cs" />
+        <Compile Include="Chapter6:OOP\Task42\CreateRoute.cs" />
+        <Compile Include="Chapter6:OOP\Task42\RunTrainApp.cs" />
+        <Compile Include="Chapter6:OOP\Task42\Train.cs" />
+        <Compile Include="Chapter6:OOP\Task42\Travellers.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
@@ -96,6 +100,7 @@
       <Content Include="Chapter6:OOP\Task39\README.md" />
       <Content Include="Chapter6:OOP\Task40\README.md" />
       <Content Include="Chapter6:OOP\Task41\README.md" />
+      <Content Include="Chapter6:OOP\Task42\README.md" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
