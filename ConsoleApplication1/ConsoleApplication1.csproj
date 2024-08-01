@@ -92,6 +92,13 @@
         <Compile Include="Chapter6:OOP\Task42\RunTrainApp.cs" />
         <Compile Include="Chapter6:OOP\Task42\Train.cs" />
         <Compile Include="Chapter6:OOP\Task42\Travellers.cs" />
+        <Compile Include="Chapter6:OOP\task43\Battle.cs" />
+        <Compile Include="Chapter6:OOP\task43\Berserk.cs" />
+        <Compile Include="Chapter6:OOP\task43\IChampion.cs" />
+        <Compile Include="Chapter6:OOP\task43\Mage.cs" />
+        <Compile Include="Chapter6:OOP\task43\Ranger.cs" />
+        <Compile Include="Chapter6:OOP\task43\Rogue.cs" />
+        <Compile Include="Chapter6:OOP\task43\Warrior.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

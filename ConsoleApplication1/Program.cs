@@ -1,6 +1,6 @@
 ﻿using System;
 
-using ConsoleApplication1.Chapter6_OOP.Task42;
+using ConsoleApplication1.Chapter6_OOP.task43;
 // using ConsoleApplication1.Chapter6_OOP.Task40;
 // using ConsoleApplication1.Chapter6_OOP.Task37;
 // using ConsoleApplication1.Chapter3_Arrays;
@@ -14,9 +14,8 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            RunTrainApp.Run();
-            
-            
+            Battle battle = new Battle();
+            battle.StartBattle();
         }
     }
 }
