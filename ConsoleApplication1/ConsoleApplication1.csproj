@@ -103,6 +103,9 @@
         <Compile Include="Chapter6:OOP\Task44\CustomerQueue.cs" />
         <Compile Include="Chapter6:OOP\Task44\Grocery.cs" />
         <Compile Include="Chapter6:OOP\Task44\GroceryStore.cs" />
+        <Compile Include="Chapter6:OOP\Task45\Soldier.cs" />
+        <Compile Include="Chapter6:OOP\Task45\Squad.cs" />
+        <Compile Include="Chapter6:OOP\Task45\SquadBattle.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

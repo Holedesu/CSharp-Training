@@ -1,6 +1,6 @@
 ﻿using System;
 
-using ConsoleApplication1.Chapter6_OOP.Task44;
+using ConsoleApplication1.Chapter6_OOP.Task45;
 // using ConsoleApplication1.Chapter6_OOP.Task40;
 // using ConsoleApplication1.Chapter6_OOP.Task37;
 // using ConsoleApplication1.Chapter3_Arrays;
@@ -14,7 +14,7 @@ namespace ConsoleApplication1
     {
         public static void Main(string[] args)
         {
-            GroceryStore.RunStore();
+            SquadBattle.StartBattle();
         }
     }
 }
