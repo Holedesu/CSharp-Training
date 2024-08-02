@@ -99,6 +99,10 @@
         <Compile Include="Chapter6:OOP\task43\Ranger.cs" />
         <Compile Include="Chapter6:OOP\task43\Rogue.cs" />
         <Compile Include="Chapter6:OOP\task43\Warrior.cs" />
+        <Compile Include="Chapter6:OOP\Task44\Customer.cs" />
+        <Compile Include="Chapter6:OOP\Task44\CustomerQueue.cs" />
+        <Compile Include="Chapter6:OOP\Task44\Grocery.cs" />
+        <Compile Include="Chapter6:OOP\Task44\GroceryStore.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
